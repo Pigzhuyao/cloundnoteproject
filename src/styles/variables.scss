@@ -1,0 +1,9 @@
+$la-menuBg: #304156;
+
+// the :export directive is the magic sauce for webpack
+// zy： vue component use the scss vairables
+:export {
+  menuBg: $la-menuBg;
+}
+
+$la-navberHeight: 50px;
