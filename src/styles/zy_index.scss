@@ -1,0 +1,26 @@
+@import './zy_mixin.scss';
+@import './zy_element.scss';
+
+/**
+ * 01.Global Styles
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+.zyContainer {
+  height: 100%;
+}

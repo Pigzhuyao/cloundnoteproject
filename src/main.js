@@ -10,7 +10,11 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 Vue.use(ElementUI, { size: 'mini' })
 
-import '@/styles/index.scss' // global css
+import '@/styles/zy_index.scss' // global css
+
+import axios from 'axios'
+Vue.prototype.$axios = axios
+axios.defaults.baseURL = '/admin'
 
 /* eslint-disable no-new */
 new Vue({
